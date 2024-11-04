@@ -1,4 +1,6 @@
 import React from 'react';
+import img from '../assets/img.jpeg'
+import img2 from '../assets/img2.jpeg'
 
 const Home = () => {
   return (
@@ -6,7 +8,9 @@ const Home = () => {
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">Welcome to Mahal Gallery</h2>
         <p className="mb-8">Your one-stop solution for quality building materials.</p>
-        <img src="https://via.placeholder.com/600x400" alt="Home" className="mx-auto rounded-lg shadow-lg" />
+        <p>Products</p>
+        <img src={img} alt="Home" className="mx-auto rounded-lg shadow-lg" />
+        <img src={img2} alt="Home" className="mx-auto rounded-lg shadow-lg" />
       </div>
     </section>
   );
